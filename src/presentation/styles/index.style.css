@@ -1,0 +1,92 @@
+div.app{
+    height: 150%;
+}
+div.main-description-container{
+    margin-top: 7rem;
+    margin-bottom: 15rem;
+    position: relative;
+    width: 100%;
+    height: 45%;
+}
+
+
+div.tecnologias-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.tecnologias-list {
+    width: 50%;
+}
+div.tecnologias-img{
+    width: 50%;
+}
+
+div.tecnologias-list>ul>ol{
+    margin: 1em auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 21, 90);
+}
+a.tecnologia{
+    will-change: filter;
+    transition: filter 200ms;
+}
+a.tecnologia:hover{
+    filter: drop-shadow(0 0 1.5rem rgb(0, 21, 104));
+}
+
+p.main-description {
+    margin: 2.5rem auto 1rem;
+    text-align: center;
+    max-width: 70%;
+}
+
+div.tecnologias-img{
+    align-items: center;
+    align-content: center;
+}
+
+img.logo{
+    width: 50%;
+    max-width: 350px;
+}
+
+
+div.menu-excercises-container{
+    background-color: rgba(2, 228, 232, 1);
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 35%;
+    padding: 2rem;
+    overflow: auto;
+}
+
+div.excercise{
+    background-color: rgba(16, 188, 255, 1);
+    margin: 5rem auto;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    align-items: center;
+    align-content: center;
+}
+
+div.excercise p{
+    text-align: center;
+}
+
+div.footer-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+social{
+    width: 2rem;
+    max-width: 250px;
+}

@@ -1,0 +1,15 @@
+/* Color Theme Swatches in Hex */
+.Blue---Analog-1-hex { color: #0333FF; }
+.Blue---Analog-2-hex { color: #036BE8; }
+.Blue---Analog-3-hex { color: #10BCFF; }
+.Blue---Analog-4-hex { color: #03E4E8; }
+.Blue---Analog-5-hex { color: #03FFBC; }
+
+
+
+/* Color Theme Swatches in HSLA */
+.Blue---Analog-1-hsla { color: hsla(228, 100, 50, 1); }
+.Blue---Analog-2-hsla { color: hsla(212, 97, 46, 1); }
+.Blue---Analog-3-hsla { color: hsla(196, 100, 53, 1); }
+.Blue---Analog-4-hsla { color: hsla(180, 97, 46, 1); }
+.Blue---Analog-5-hsla { color: hsla(164, 100, 50, 1); }
